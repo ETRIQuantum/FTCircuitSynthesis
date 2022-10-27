@@ -46,7 +46,7 @@ If you use our project for your research, we would be grateful if you referred t
 ```
 
 ## License
-This project is licensed under the [BSD-3-Clause](/docs/LICENSE.md)
+This project is licensed under the [BSD-3-Clause](/docs/LICENSE.txt)
 
 ## Acknowledgement
 
