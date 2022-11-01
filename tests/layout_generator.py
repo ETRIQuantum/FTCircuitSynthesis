@@ -1,3 +1,4 @@
+
 # -*-coding:utf-8-*-
 
 # This code is part of ftsynthesis
@@ -10,7 +11,6 @@
 '''
     module to generate a 1-D, 2-D regular qubit layout of the size
 '''
-
 
 import os
 import itertools
@@ -60,7 +60,6 @@ def generate_regular_qchip_architecture(parent_dir, layout_size, **kwargs):
             elif idx[1] == width-1:
                 qubit_connectivity[_cell_idx].append(_cell_idx-1)
 
-#     file_device = "".join(["file_qchip_{}x{}.json".format(height, width)])
     file_device = f"file_qchip_{height}x{width}.json"
     qchip_architecture = {"qubit_connectivity": qubit_connectivity,
                           "device_name": file_device,
