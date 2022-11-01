@@ -16,7 +16,6 @@ import collections
 import math
 import itertools
 
-
 def calculate_swap_matrix(qchip_data, target_criterion):
     '''
         function to calculate a swap cost (time, fidelity) between two adjacent qubits
